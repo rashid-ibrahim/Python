@@ -1,6 +1,6 @@
 #Name: Rashid "Lee" Ibrahim
 #Date: July 22 2014
-#Application: Assognment 8.1 Recursive.Max.py
+#Application: Assignment 8.1 Recursive.Max.py
 #Purpose: Write and test a recursive function max to find the largest number in a list.
         # The max is the largest of the first item and the max of all the other items.
 
