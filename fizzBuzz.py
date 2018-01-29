@@ -1,14 +1,15 @@
 
 def fizzBuzz(n):
     for i in range(1, n):
-        if num % 3 == 0 and num % 5 == 0:
+        if i % 3 == 0 and i % 5 == 0:
             print('FizzBuzz')
-        elif num % 5 == 0:
+        elif i % 5 == 0:
             print('Buzz')
-        elif num % 3 == 0:
+        elif i % 3 == 0:
             print('Fizz')
         else:
-            print(str(num))
+            print(str(i))
+        print("\n")
 
 def main():
     num = input('Enter a number to run FizzBuzz until: ')
