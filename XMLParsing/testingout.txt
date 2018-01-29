@@ -1,0 +1,5516 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rep="http://report.services.ecrash.ln.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <rep:uploadIncidentReports>
+         <token>ce3bd58c-8374-4b19-bfe0-cffa9ebf990d</token>
+         <vendorCode>CMPD</vendorCode>
+         <!--Optional:-->
+         <state>NC</state>
+         <!--Optional:-->
+         <agencyOri>ORINC012</agencyOri>
+         <reportData><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<Reports xmlns='http://www.lexisnexis.com/Incident'>
+<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-12T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-12T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151112200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151112200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3101 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-13T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-13T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151113200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151113200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3102 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-14T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-14T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151114200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151114200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3105 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-15T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-15T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151115200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151115200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3106 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-16T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-16T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151116200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151116200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3107 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-17T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-17T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151117200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151117200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3108 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-18T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-18T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151118200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151118200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3109 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-19T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-19T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151119200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151119200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3110 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-20T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-20T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151120200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151120200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3111 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-21T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-21T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151121200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151121200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3112 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-22T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-22T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151122200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151122200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3113 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-23T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-23T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151123200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151123200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3114 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-24T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-24T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151124200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151124200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3115 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-25T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-25T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151125200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151125200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3116 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-26T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-26T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151126200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151126200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3117 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-27T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-27T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151127200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151127200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3118 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-28T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-28T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151128200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151128200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3119 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-29T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-29T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151129200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151129200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3120 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-11-30T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-11-30T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151130200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151130200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3121 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-01T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-01T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151201200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151201200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3122 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-02T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-02T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151202200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151202200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3123 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-03T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-03T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151203200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151203200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3124 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-04T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-04T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151204200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151204200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3125 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-05T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-05T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151205200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151205200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3126 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-06T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-06T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151206200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151206200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3127 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-07T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-07T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151207200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151207200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3128 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-08T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-08T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151208200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151208200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3129 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-09T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-09T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151209200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151209200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3130 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-10T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-10T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151210200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151210200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3131 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-11T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-11T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151211200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151211200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3132 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-12T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-12T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151212200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151212200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3133 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-13T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-13T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151213200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151213200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3134 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-14T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-14T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151214200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151214200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3135 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-15T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-15T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151215200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151215200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3136 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-16T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-16T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151216200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151216200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3137 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-17T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-17T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151217200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151217200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3138 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-18T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-18T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151218200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151218200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3139 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-19T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-19T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151219200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151219200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3140 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-20T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-20T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151220200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151220200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3141 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-21T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-21T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151221200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151221200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3142 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-22T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-22T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151222200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151222200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3143 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-23T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-23T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151223200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151223200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3144 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-24T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-24T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151224200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151224200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3145 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-25T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-25T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151225200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151225200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3146 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-26T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-26T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151226200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151226200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3147 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-27T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-27T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151227200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151227200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3148 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-28T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-28T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151228200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151228200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3149 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-29T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-29T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151229200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151229200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3150 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-12-30T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-12-30T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20151230200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20151230200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3151 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-01T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-01T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150101200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150101200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3152 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-02T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-02T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150102200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150102200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3153 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-03T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-03T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150103200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150103200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3154 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-04T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-04T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150104200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150104200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3155 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-05T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-05T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150105200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150105200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3156 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-06T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-06T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150106200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150106200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3157 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-07T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-07T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150107200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150107200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3158 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-08T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-08T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150108200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150108200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3159 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-09T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-09T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150109200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150109200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3160 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-10T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-10T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150110200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150110200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3161 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-11T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-11T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150111200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150111200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3162 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-12T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-12T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150112200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150112200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3163 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-13T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-13T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150113200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150113200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3164 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-14T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-14T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150114200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150114200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3165 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-14T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-14T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150115200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150115200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3166 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-16T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-16T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150116200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150116200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3167 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-17T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-17T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150117200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150117200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3168 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-18T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-18T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150118200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150118200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3169 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-19T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-19T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150119200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150119200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3170 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-20T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-20T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150120200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150120200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3171 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-21T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-21T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150121200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150121200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3172 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-22T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-22T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150122200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150122200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3173 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-23T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-23T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150123200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150123200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3174 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-24T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-24T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150123200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150123200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3175 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-25T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-25T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150125200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150125200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3176 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-26T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-26T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150126200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150126200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3177 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-27T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-27T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150127200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150127200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3178 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-28T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-28T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150128200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150128200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3179 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-29T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-29T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150129200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150129200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3180 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-01-30T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-01-30T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150130200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150130200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3181 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-01T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-01T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150201200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150201200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3182 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-02T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-02T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150202200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150202200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3183 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-03T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-03T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150203200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150203200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3184 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-04T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-04T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150204200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150204200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3185 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-05T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-05T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150205200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150205200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3186 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-06T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-06T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150206200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150206200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3187 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-07T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-07T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150207200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150207200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3188 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-08T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-08T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150208200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150208200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3189 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-09T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-09T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150209200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150209200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3190 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-10T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-10T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150210200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150210200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3191 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-11T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-11T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150211200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150211200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3192 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-12T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-12T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150212200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150212200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3193 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-13T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-13T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150213200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150213200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3194 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-14T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-14T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150214200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150214200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3195 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-15T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-15T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150215200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150215200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3196 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-16T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-16T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150216200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150216200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3197 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-17T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-17T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150217200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150217200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3198 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-18T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-18T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150218200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150218200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3199 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-19T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-19T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150219200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150219200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3200 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-20T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-20T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150220200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150220200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3201 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+	<Report>
+ 	<AgencyORI>ORINC012</AgencyORI>
+ 	<AgencyName>Charlotte-Mecklenburg Police Department Crime Reports</AgencyName>
+ 	<State>NC</State>
+ 	<ReportDate>2015-02-21T01:01:01-05:00</ReportDate>
+ 	<DateOfLoss>2015-02-21T01:01:01-05:00</DateOfLoss>
+ 	<ReportNumber>20150221200800</ReportNumber>
+ 	<ReportType>A</ReportType>
+ 	<CaseNumber>20150221200800</CaseNumber>
+ 	<ReportStatus>Completed</ReportStatus>
+ 	<HitAndRun>false</HitAndRun>
+ 	<CityName>CityTown</CityName>
+ 	<PrimaryStreet>3202 MARVIN RD</PrimaryStreet>
+ 	<Persons>
+ 	<Person>
+ 	<VehicleUnitNumber>0</VehicleUnitNumber>
+ 	<PersonType>2</PersonType>
+ 	<LastName>SCOTT</LastName>
+ 	<Injury>2</Injury>
+ 	</Person>
+ 	</Persons>
+ 	<Vehicles>
+ 	<Vehicle>
+ 	<UnitNumber>1</UnitNumber>
+ 	<VIN>VIN1</VIN>
+ 	<Make>Make1</Make>
+ 	<Model>Model1</Model>
+ 	<ModelYear>1900</ModelYear>
+ 	<Tag>Tag1</Tag>
+ 	<TagState>T1</TagState>
+ 	<VehicleTowed>true</VehicleTowed>
+ 	<AirbagDeployed>1</AirbagDeployed>
+ 	<InitialImpactLocations>
+ 	<InitialImpactLocation>FRONT</InitialImpactLocation>
+ 	<InitialImpactLocation>FRONT &amp; REAR</InitialImpactLocation>
+ 	<InitialImpactLocation>LEFT FRONT</InitialImpactLocation>
+ 	</InitialImpactLocations>
+ 	<DamagedLocations>
+ 	<DamagedLocation>FRONT</DamagedLocation>
+ 	<DamagedLocation>FRONT &amp; REAR</DamagedLocation>
+ 	<DamagedLocation>LEFT FRONT</DamagedLocation>
+ 	</DamagedLocations>
+ 	<InsuranceCompanyName>InsuranceCompanyName1</InsuranceCompanyName>
+ 	<InsurancePolicyNumber>InsurancePolicyNumber1</InsurancePolicyNumber>
+ 	<InsurancePolicyDate>1900-01-01</InsurancePolicyDate>
+ 	</Vehicle>
+ 	</Vehicles>
+ 	<OfficerName>Sgt. Bob</OfficerName>
+ 	<District>District1</District>
+ 	<HasAddendum>true</HasAddendum>
+ 	<IsAvailableForPublic>true</IsAvailableForPublic>
+ 	<LastUpdateDate>1900-01-01T01:01:01-05:00</LastUpdateDate>
+ 	<ReportImage>REPLACEME</ReportImage>
+ 	<ImageType>PDF</ImageType>
+ 	</Report>
+</Reports>]]></reportData>
+      </rep:uploadIncidentReports>
+   </soapenv:Body>
+</soapenv:Envelope>
