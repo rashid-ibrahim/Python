@@ -11,6 +11,12 @@ import subprocess as sub
 import locations as loc
 import MachineLoader as mac
 
+def bootMachine(d):
+    os.chdir(d)
+    sub.call("vagrant up")
+    sleep(5)
+    return 0
+
 def main():
     l = loc.locations()
     m = mac.MachineLoader()
@@ -23,7 +29,7 @@ def main():
         bootMachine(l.getButr())
         
     if machines['dish'] == True:
-            bootMachine(l.getDish())
+        bootMachine(l.getDish())
     
     if machines['but'] == True:
         gruntLoad(l.getButr())
