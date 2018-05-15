@@ -1,6 +1,6 @@
 ########################################################################################################
 # Name: Required Include class for autostart.pyu and autostop.py                                       #
-# Purpose: Loads the location of the grunt machines into getters and setters                           #
+# Purpose: Loads the location of the vagrant machines into getters and setters                         #
 # Author: Rashid 'Lee' Ibrahim                                                                         #
 # Date: 11/12/2017                                                                                     #
 ########################################################################################################

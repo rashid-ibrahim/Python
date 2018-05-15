@@ -1,3 +1,11 @@
+########################################################################################################
+# Name: Auto start vagrant machines script                                                             #
+# Purpose: Class file handles user I/O for vagrant machine loading                                     #
+# Author: Rashid 'Lee' Ibrahim                                                                         #
+# Date: 11/12/2017                                                                                     #
+########################################################################################################
+
+
 import os
 from time import sleep
 import subprocess as sub

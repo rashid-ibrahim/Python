@@ -3,6 +3,7 @@
 # Purpose: This script is to auto load the butr and dish vagrant machines and then run grunt on them.  #
 # Author: Rashid 'Lee' Ibrahim                                                                         #
 # Date: 11/12/2017                                                                                     #
+# Modified: 05/15/2018                                                                                 #
 ########################################################################################################
 
 import os
@@ -17,11 +18,19 @@ def bootMachine(d):
     sleep(5)
     return 0
 
+
+#grunt doesn't continue to watch because the console closes when the program ends
+#need to find a way to leave the console open.
+def gruntLoad(d):
+    os.chdir(d + '\www\public')
+    sub.call("grunt watch", shell=True)
+    return 0
+
 def main():
     l = loc.locations()
     m = mac.MachineLoader()
     machines = m.getUserChoice()
-
+    
     if machines['Gala'] == True:
         bootMachine(l.getGala())
         
@@ -30,11 +39,12 @@ def main():
         
     if machines['dish'] == True:
         bootMachine(l.getDish())
-    
-    if machines['but'] == True:
+
+    if machines['butr'] == True:
         gruntLoad(l.getButr())
         
-    return 0
+    raise Exception('exit')
+    #return 0
 
 if __name__ == "__main__":
     main()
