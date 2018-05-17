@@ -1,7 +1,7 @@
 ##################################################################################
 # Author: Rashid "Lee" Ibrahim                                                   #
-# Date: Jan 29, 2018                                                             #
-# Modified: May 05, 2016                                                         #
+# Original Date: Jan 29, 2018                                                    #
+# Last Modified: May 17, 2018                                                    #
 # Program: Fibonacci Sequence Calculator                                         #
 # Purpose: Calculates the nth fibonacci number either recursivly or itteratively #
 ##################################################################################
@@ -28,14 +28,9 @@ def main():
         x = int(input('Enter 1 for recursive fibonacci. Enter 2 for iterative fibonacci. '))
         y = int(input('What number would you like to calculate the fibonacci sequence out to? '))
 
-        print('\n')
-        print('memoizeFib')
-        print(memoizeFib)
-        print('\n')
         if y in memoizeFib:
-            print('memoize found')
+            print('memoized answer found!')
             print('The {0} fibbonacci number is {1}'.format(y, memoizeFib[y]))
-            print(memoizeFib[8])
         else:
             if len(memoizeFib) > 1:
                 ans = memoizeFib[len(memoizeFib)-1]
