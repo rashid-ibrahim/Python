@@ -16,7 +16,7 @@ def fiboRecursive(ans, oldAns, curr, end):
     return (ans + oldAns)
 
 
-def fiboLoop(ans, oldAns, n):
+def fiboLoop(ans, oldAns, dump, n):
     for i in range(len(memoizeFib)+1, n+1):
         memoizeFib[i] = oldAns
         oldAns, ans = ans, ans+oldAns
@@ -42,7 +42,7 @@ def main():
             if x == 1:
                 print('The', str(y), 'fibonacci number is', fiboRecursive(ans, oldAns, len(memoizeFib)+1, y))
             else:
-                print('The', str(y), 'fibonacci number is', fiboLoop(ans, oldAns, y))
+                print('The', str(y), 'fibonacci number is', fiboLoop(ans, oldAns, len(memoizeFib)+1, y))
 
         z = input('Run again? ')
         if z != 'y' and z != 'yes':
