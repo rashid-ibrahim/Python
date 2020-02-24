@@ -1,0 +1,52 @@
+"""
+Problem statement: https://www.hackerrank.com/challenges/alphabet-rangoli/problem
+"""
+
+
+def build_outer_dashes(size):
+    return '-' * size
+
+
+def build_center(letters):
+    if len(letters) == 1:
+        return letters
+
+    size = len(letters)
+    reverse_letters = letters[::-1]
+    row = [f'{letters[x]}-' for x in range(0, size-1)]
+    row.append(reverse_letters[0])
+    row += [f'-{reverse_letters[x]}' for x in range(1, size)]
+
+    return ''.join(row)
+
+
+def print_rangoli(size):
+    alpha = 'abcdefghijklmnopqrstuvwxyz'
+
+    middle = [f'{alpha[x]}-' for x in range(size - 1, 0, -1)]
+    middle.append('a')
+    middle += [f'-{alpha[x]}' for x in range(1, size)]
+    middle = ''.join(middle)
+
+    dashes = (len(middle)-1) // 2
+    letters_list = list(alpha[1:size])
+
+    letters = ''
+    rows = []
+    while letters_list:
+        letters += letters_list.pop()
+        left = build_outer_dashes(dashes)
+        c = build_center(letters)
+        right = build_outer_dashes(dashes)
+        rows.append(left + c + right)
+        print(left + c + right)
+        dashes -= 2
+
+    print(middle)
+
+    while rows:
+        print(rows.pop())
+
+
+if __name__ == '__main__':
+    print_rangoli(15)
