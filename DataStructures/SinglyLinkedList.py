@@ -2,7 +2,7 @@
 class Node:
     def __init__(self, data=None, next_node=None):
         """
-        Node class implmented in the linked list class below
+        Node class implemented in the linked list class below
         """
         self.data = data
         self.next_node = next_node
@@ -34,8 +34,11 @@ class SinglyLinkedList(object):
             count = 0
             temp = self.head
             while count < place:
-                temp = temp.next_node
-                count += 1
+                try:
+                    temp = temp.next_node
+                    count += 1
+                except AttributeError:
+                    break
 
             new_node.set_next(temp.next_node)
             temp.next_node = new_node
@@ -95,7 +98,14 @@ class SinglyLinkedList(object):
         return False
 
     def update(self, old_value, new_value):
-        pass
+        temp = self.head
+        while temp:
+            if temp.data == old_value:
+                temp.data = new_value
+                return True
+            temp = temp.next_node
+
+        return False
 
     def delete(self, value):
         """
@@ -104,10 +114,15 @@ class SinglyLinkedList(object):
         :return: Returns none
         """
         temp = self.head
+        prev = None
         while temp:
             if temp.data == value:
-                temp.next_node = temp.next_node
-        return None
+                prev.next_node.set_next(temp.next_node)
+                return True
+            else:
+                prev = temp
+                temp = temp.next_node
+        return False
 
     def print_list(self):
         """
