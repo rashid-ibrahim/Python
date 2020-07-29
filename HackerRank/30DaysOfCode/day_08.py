@@ -1,5 +1,5 @@
 """
-Problem Statement Found At: https://www.hackerrank.com/challenges/30-dictionaries-and-maps/submissions/code/66664346
+Problem Statement Found At: https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem
 """
 
 

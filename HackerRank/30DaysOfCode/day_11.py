@@ -1,5 +1,5 @@
 """
-Problem Statement Found At: https://www.hackerrank.com/challenges/30-2d-arrays/submissions/code/171177977
+Problem Statement Found At: https://www.hackerrank.com/challenges/30-2d-arrays/problem
 """
 
 
