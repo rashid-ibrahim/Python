@@ -124,6 +124,24 @@ class SinglyLinkedList(object):
                 temp = temp.next_node
         return False
 
+    def remove_duplicates(self):
+        temp, prev = self.head, None
+        found_data = []
+
+        while temp:
+            if temp.data not in found_data:
+                found_data.append(temp.data)
+                if prev:
+                    prev.next_node = temp
+                prev = temp
+
+            else:
+                prev.next_node = temp.next_node
+
+            temp = temp.next_node
+
+        return self.head
+
     def print_list(self):
         """
         Helper function to print out the contents of the list.
@@ -144,10 +162,13 @@ def create_singly_linked_list(vals):
 
 
 if __name__ == '__main__':
-    test_vals = [1, 2, 3, 4, 5]
+    # Case 0
+    test_vals = [1, 2, 2, 3, 3, 4]
+    # Case 1
+    # test_vals = [1, 1, 1, 1, 1, 1, 1]
     is_linked = create_singly_linked_list(test_vals)
     is_linked.print_list()
-    print('Reversing')
-    is_linked.reverse()
+    print('Removing Duplicates')
+    is_linked.remove_duplicates()
     is_linked.print_list()
     print('wait')
