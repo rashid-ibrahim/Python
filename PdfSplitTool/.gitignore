@@ -1,0 +1,6 @@
+*.pdf
+build/
+__pychache__
+dist/
+*.spec
+*.exe
