@@ -23,14 +23,18 @@ Use command:
 
 
 def main():
-    try:
-        location = getcwd()
-        files = [f for f in listdir(location) if isfile(join(location, f)) and f.endswith('.pdf')]
+    location = getcwd()
+    files = [f for f in listdir(location) if isfile(join(location, f)) and f.endswith('.pdf')]
 
-        for file in files:
-            ofile = open(file, 'rb')
-            pdf = PdfFileReader(ofile)
+    count = 0
+    skip = 0
 
+    for file in files:
+        ofile = open(file, 'rb')
+        pdf = PdfFileReader(ofile)
+
+        # Only try to split the PDF if it has more than one page.
+        if pdf.getNumPages() > 1:
             # After this loop there will be an unchanged original and then a new one for each page.
             for i in range(pdf.numPages):
                 output = PdfFileWriter()
@@ -40,17 +44,22 @@ def main():
                 # page_name = name_reader(pdf.getPage(i)) then I could replace the {file} variable below.
                 with open(f'{file[:-4]}_page_{i+1}.pdf', 'wb') as outputStream:
                     output.write(outputStream)
+                count += 1
+        else:
+            skip += 1
+        ofile.close()
 
-            ofile.close()
-            print(f'renaming: {location}/{file}')
+        try:
             rename(fr'{location}\{file}', fr'{file[:-4]}_Original.pdf')
+        except Exception as e:
+            # We don't really care what the exception is when renaming the files. If it doesn't work we just move on.
+            pass
 
-    except Exception as e:
-        input(f'Exception happened: {e}')
-
-    return 1
+    return count, skip
 
 
 if __name__ == '__main__':
-    main()
-    input('Waiting... press any key to continue')
+    print('Splitting all multi page PDFs into their own document.')
+    docs_split, docs_skipped = main()
+    print(f'{docs_split} were broken apart and {docs_skipped} were skipped because they only have one page.')
+    input('Press Any Key to Exit')
